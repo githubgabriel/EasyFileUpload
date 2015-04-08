@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="js/jquery.js"></script>
+    <script src="js/EasyFileUpload/EasyFileUpload.js"></script>
+</head>
+<body>
+
+<script>
+
+    $(function() {
+
+        $("input#easyUpload").EasyFileUpload({
+
+            backgroundColor: "yellow",
+            color: "red",
+            debug: true
+
+        });
+
+    });
+
+</script>
+
+<input type="file" id="easyUpload" name="file" /> <br><br>
+<input type="file" id="easyUpload" name="file2" />
+
+</body>
+</html>
